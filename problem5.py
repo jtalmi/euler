@@ -20,10 +20,8 @@ def smallest_multiple(n):
                 if i % j == 0:
                     y = y/j
             x = x * y
+    assert int(x) == 2*2*2*2*3*3*5*7*11*13*17*19
     return str(int(x))
 
 if __name__ == '__main__':
     print(smallest_multiple(20))
-
-
-#2*2*2*2*3*3*5*7*11*13*17*19
